@@ -1,0 +1,105 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#container-file{
+	padding: 20px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+#dropbox {
+	width: 100%;
+	height: 200px;
+	border: 2px solid #DDD;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background-color: #FFF;
+	text-align: center;
+	color: #554949;
+	font-size: 2em;
+	margin-bottom: 15px;
+}
+ 
+#droplabel {
+	position: relative;
+	top: 40%;
+	width: 100%;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#draw-map {
+	float: right;
+	height: 20px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+    border-radius: 15px;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	width:100px;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+    padding: 15px;
+    cursor: pointer;
+}
+#draw-map:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}
+
+#draw-map:active {
+	position:relative;
+	top:1px;
+}
+
+#map-drawing{
+	padding: 80px 20px;
+	width: 100%;
+	margin: 0 auto;
+	height: 70%;
+	box-sizing: border-box;
+}
+
+
+#map-canvas {
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+    width: 70%;
+}
+
+#message {
+	visibility: hidden; 
+    height:100%;
+    width: 25%;
+    float: right; 
+}
+
+
+#map-canvas, #message{
+	display: inline-block;
+}
+
+
+td:first-child{
+	font-weight: bold;
+}
+
+td{
+	padding: 10px;
+}

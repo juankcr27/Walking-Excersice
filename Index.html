@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Walking exercise</title>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="app.css">		
+	</head>
+	<body>
+		<section id="container-file">
+			<div id="dropbox"><span id="droplabel">Drop file here...</span></div>
+			<span id="draw-map">Draw the map!</span>
+		</section>
+		
+		<section id="map-drawing">
+			<div id="map-canvas"></div>	
+			<div id="message">
+				<table>
+					<tr>
+						<td>From position: </td>
+						<td id="from"></td>
+					</tr>
+					<tr>
+						<td>To position: </td>
+						<td id="to"></td>
+					</tr>
+					<tr>
+						<td>Distance of: </td>
+						<td id="distance"></td>
+					</tr>
+				</table>
+			</div>		
+		</section>				
+	</body>
+</html>
